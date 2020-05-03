@@ -35,10 +35,13 @@ async function start() {
     )
     app.listen(PORT, () => {
       console.log('Server has been started...')
+      
     })
   } catch (e) {
     console.log(e)
   }
 }
+
+
 
 start()
